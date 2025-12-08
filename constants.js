@@ -121,7 +121,7 @@ export const VOLUNTEERING = [
 export const EDUCATION = [
   {
     degree: 'B.Tech CSE',
-    institution: 'GCETTB, Berhampore',
+    institution: 'Government College of Engineering and Textile Technology, Berhampore',
     year: '2022 – 2026',
     score: 'Pursuing'
   },
