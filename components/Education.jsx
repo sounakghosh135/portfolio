@@ -17,10 +17,10 @@ const Education = () => {
                     <div key={idx} className="bg-white p-6 rounded-lg border border-slate-200 flex justify-between items-center hover:bg-slate-50 transition-colors shadow-sm">
                         <div>
                             <h4 className="font-bold text-slate-800 text-lg">{edu.degree}</h4>
-                            <p className="text-slate-600 text-sm mt-1">{edu.institution}</p>
+                            <p className="text-slate-600 text-xs mt-1">{edu.institution}</p>
                         </div>
                         <div className="text-right">
-                            <span className="block text-cyan-600 font-medium text-sm">{edu.year}</span>
+                            <span className="block text-cyan-600 font-medium text-lg">{edu.year}</span>
                             {edu.score && <span className="text-xs text-slate-500 font-mono mt-1 block">Score: {edu.score}</span>}
                         </div>
                     </div>
