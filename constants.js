@@ -127,13 +127,13 @@ export const EDUCATION = [
   },
   {
     degree: 'Class XII (CBSE)',
-    institution: 'School Name',
+    institution: 'S.G.D Modern School, Chirkunda Dhanbad',
     year: '2022',
     score: '73%'
   },
   {
     degree: 'Class X (CBSE)',
-    institution: 'School Name',
+    institution: 'S.G.D Modern School, Chirkunda Dhanbad',
     year: '2020',
     score: '76%'
   }
