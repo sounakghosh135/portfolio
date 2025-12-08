@@ -31,7 +31,7 @@ export const EXPERIENCE = [
     id: 'digiblend',
     role: 'Performance Marketing Intern',
     company: 'DigiBlend',
-    period: 'Sept 2025 – Present',
+    period: 'Sept 2025 – Nov 2025',
     description: [
       'Running data-driven Meta & Google Ads campaigns to drive conversions.',
       'Researching audience segments and optimizing funnel strategies.',
@@ -55,7 +55,7 @@ export const EXPERIENCE = [
     id: 'viralfission',
     role: 'Campus Ambassador',
     company: 'Viral Fission',
-    period: 'Apr 2023 – Present',
+    period: 'Apr 2023 – Oct 2025',
     description: [
       'Executing youth-centred brand campaigns on campus.',
       'Boosting social media reach through engagement challenges.'
