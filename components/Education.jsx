@@ -13,15 +13,17 @@ const Education = () => {
                 <GraduationCap className="text-cyan-600" /> Education
             </h3>
             <div className="space-y-4">
-                {EDUCATION.map((edu, idx) => (
-                    <div key={idx} className="bg-white p-6 rounded-lg border border-slate-200 flex justify-between items-center hover:bg-slate-50 transition-colors shadow-sm">
-                        <div>
-                            <h4 className="font-bold text-slate-800 text-lg">{edu.degree}</h4>
-                            <p className="text-slate-600 text-xs mt-1">{edu.institution}</p>
-                        </div>
-                        <div className="text-right">
-                            <span className="block text-cyan-600 font-medium text-lg">{edu.year}</span>
-                            {edu.score && <span className="text-xs text-slate-500 font-mono mt-1 block">Score: {edu.score}</span>}
+          {EDUCATION.map((edu, idx) => (
+                    <div key={idx} className="bg-white p-6 rounded-lg border border-slate-200 hover:bg-slate-50 transition-colors shadow-sm">
+                        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-3">
+                            <div className="flex-1">
+                                <h4 className="font-bold text-slate-800 text-lg">{edu.degree}</h4>
+                                <p className="text-slate-600 text-xs mt-1">{edu.institution}</p>
+                            </div>
+                            <div className="sm:text-right">
+                                <span className="block text-cyan-600 font-medium text-lg">{edu.year}</span>
+                                {edu.score && <span className="text-xs text-slate-500 font-mono mt-1 block">Score: {edu.score}</span>}
+                            </div>
                         </div>
                     </div>
                 ))}
