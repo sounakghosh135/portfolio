@@ -23,21 +23,20 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-slate-600 font-light">
-            Performance Marketing Intern | UI/UX Designer <br/>
-            <span className="text-slate-500 text-lg">Product & Growth Enthusiast</span>
+            Performance Marketing | Growth & Marketing Analytics <br/>
+            <span className="text-slate-500 text-lg">Product & Business Strategy</span>
           </p>
           
           <p className="text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            Passionate about building digital experiences through the intersection of 
-            design, data-driven marketing, and product strategy. Currently crafting campaigns at DigiBlend.
+            Combining performance marketing, analytics, and UI/UX to create conversion-focused digital experiences.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 pt-4">
             <a 
-              href="#projects"
+              href="https://drive.google.com/drive/folders/1S27CPOPmdDZP3GCT-0Gns2mmaM4vBAQm?usp=sharing"
               className="px-6 py-3 bg-cyan-600 hover:bg-cyan-700 text-white font-bold rounded-lg transition-all flex items-center gap-2 shadow-lg shadow-cyan-600/20"
             >
-              View Portfolio <ArrowRight size={18} />
+              View Resume <ArrowRight size={18} />
             </a>
             <a 
               href={CONTACT_INFO.linkedin}

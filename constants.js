@@ -10,23 +10,40 @@ export const NAV_ITEMS = [
 export const SKILL_CATEGORIES = [
   {
     category: "Performance Marketing",
-    skills: ["Meta Ads", "Google Ads", "Funnel Strategy", "Pixel Setup", "SEO", "A/B Testing", "Campaign Optimization", "Analytics", "Audience Research"]
+    skills: ["Meta Ads", "Google Ads", "Funnel Strategy", "Pixel Setup", "Analytics", "A/B Testing", "SEO", "Audience Segmentation"]
   },
   {
-    category: "UI/UX & Product",
-    skills: ["UX Research", "Personas", "Journey Mapping", "Wireframing", "Prototyping", "Usability Testing", "Information Architecture", "Design Systems", "Product Strategy"]
+    category: "Marketing Analytics & Reporting",
+    skills: ["KPI Analysis", "Retention Metrics", "Advanced Excel Dashboards", "Reporting"]
+  },
+  {
+    category: "Growth & Strategy",
+    skills: ["Growth Experiments", "Budget Allocation", "Creative Performance Analysis", "User Journey Analysis", "Conversion Rate Optimization (CRO)", "UI/UX"]
   },
   {
     category: "Tools & Tech",
-    skills: ["Figma", "Canva", "Notion", "WordPress", "Shopify", "HTML/CSS", "GitHub"]
+    skills: ["Advanced Excel", "Google Sheets", "Google Analytics", "Google Looker Studio", "Figma", "Notion", "WordPress", "Shopify", "HTML/CSS","Github"]
   },
-  {
+   {
     category: "Soft Skills",
-    skills: ["Problem Solving", "Leadership", "Team Management", "Empathy-driven Design", "Cross-Team Collaboration"]
+    skills: ["Business Communication", "Stakeholder Management", "Analytical Thinking", "Ownership", "Cross-functional Collaboration"]
   }
 ];
 
 export const EXPERIENCE = [
+  {
+    id: 'demand xpress',
+    role: 'Performance Marketing Intern',
+    company: 'Demand Xpress',
+    period: 'Dec 2025 – Present',
+    description: [
+      'Managing and scaling high-budget Meta Ads campaigns for D2C brands like Monkify and Fight The Sunrise.',
+      'Consistently delivering 2x–3x ROAS through structured funnel strategy, creative testing, and budget reallocation.',
+      'Conducted deep KPI analysis across CTR, CPA, ROAS, hook rate, hold rate, and conversion trends to identify scaling opportunities.',
+      'Advance Excel-based ad reporting dashboards for daily, weekly, and monthly performance reviews.',
+      'Analyzed creative-level, audeince-level and placement-level performance to improve efficiency and reduce CPA.'
+    ]
+  },
   {
     id: 'digiblend',
     role: 'Performance Marketing Intern',
